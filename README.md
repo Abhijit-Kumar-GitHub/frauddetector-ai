@@ -69,6 +69,13 @@ pip install -r requirements.txt
 streamlit run streamlit_app/app.py
 ```
 
+### 5. Running Tests
+
+To run the test suite:
+```bash
+pytest
+```
+
 <!-- force spacing -->
 
 ---

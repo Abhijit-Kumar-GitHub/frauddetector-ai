@@ -1,6 +1,6 @@
 # ✅ Task Tracker – FraudDetect-AI
 
-Track all major tasks, owners, deadlines, and status updates for this project. Use this file collaboratively or copy sections into GitHub Issues for real-time tracking.
+To track all major tasks, owners, deadlines, and status updates for this project.
 
 ---
 
