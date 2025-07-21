@@ -7,12 +7,12 @@ To track all major tasks, owners, deadlines, and status updates for this project
 ## Prefixes for the git push in our own branch
 
 | Prefix   | Use For                             | Example                                         |
-| -------- | ----------------------------------- | ----------------------------------------------- |
+| -------- |-------------------------------------| ----------------------------------------------- |
 | `[EDA]`  | Notebooks, graphs, data exploration | `[EDA] Added fraud heatmap and summary stats`   |
 | `[ML]`   | Preprocessing, modeling, SHAP       | `[ML] Trained XGBoost with SMOTE`               |
 | `[APP]`  | Streamlit dashboard work            | `[APP] Created dashboard layout and filters`    |
 | `[RULE]` | Rule-based logic                    | `[RULE] Added high-frequency transaction check` |
-| `[DOCS]` | README, CONTRIBUTIONS, task tracker | `[DOCS] Finalized README and pitch notes`       |
+| `[DOCS]` | README, CONTRIBUTIONS, TASK_TRACKER | `[DOCS] Finalized README and pitch notes`       |
 | `[MISC]` | Everything else (bugfixes, cleanup) | `[MISC] Fixed typo and updated gitignore`       |
 
 
