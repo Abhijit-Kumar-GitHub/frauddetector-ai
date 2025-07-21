@@ -23,10 +23,10 @@ To track all major tasks, owners, deadlines, and status updates for this project
 |--------:|--------------------------------------------|---------|----------|------------|-------------------------------------|
 |   T-001 | Create initial GitHub repo + project setup | Abhijit | Jul 16   | ✅ Done     | Includes `.gitignore`, `README.md`  |
 |   T-002 | Complete EDA notebook                      | Anugya  | Jul 18   | 🟡 Ongoing | Visuals + feature insights          |
-|   T-003 | Write preprocessing script                 | Abhijit | Jul 19   | 🟡 Ongoing | Includes scaling, cleaning          |
-|   T-004 | Add SMOTE-based resampling pipeline        | Abhijit | Jul 19   | ⬜ Pending  | Use `imblearn.over_sampling.SMOTE`  |
-|   T-005 | Train multiple ML models (XGB, LGBM, CatB) | Abhijit | Jul 20   | ⬜ Pending  | Benchmark different classifiers     |
-|   T-006 | Add cross-validation & metrics logging     | Abhijit | Jul 20   | ⬜ Pending  | Use StratifiedKFold, AUC, PR, etc.  |
+|   T-003 | Write preprocessing script                 | Abhijit | Jul 19   | ✅ Done     | Includes scaling, cleaning          |
+|   T-004 | Add SMOTE-based resampling pipeline        | Abhijit | Jul 19   | ✅ Done     | Use `imblearn.over_sampling.SMOTE`  |
+|   T-005 | Train multiple ML models (XGB, LGBM, CatB) | Abhijit | Jul 20   | 🟡 Pending | Benchmark different classifiers     |
+|   T-006 | Add cross-validation & metrics logging     | Abhijit | Jul 20   | 🟡 Pending | Use StratifiedKFold, AUC, PR, etc.  |
 |   T-007 | Design initial Streamlit layout            | Anugya  | Jul 21   | ⬜ Pending  | Use Plotly, interactivity           |
 |   T-008 | SHAP & Explainability integration          | Abhijit | Jul 22   | ⬜ Pending  | SHAP plots, narrative for decisions |
 |   T-009 | Rule-based logic module                    | Abhijit | Jul 23   | ⬜ Pending  | Manual fraud heuristics             |

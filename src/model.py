@@ -1,5 +1,7 @@
 # src/model.py
 
+# LATER LightGBMClassifier or CatBoostClassifier (can add later)
+
 import pandas as pd
 import joblib
 import os
@@ -8,6 +10,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, f1_score
 from xgboost import XGBClassifier
 from preprocessing import load_and_clean_data, split_data
+
+from resampling import apply_smote
 
 def train_and_evaluate_model(model, model_name, X_train, X_test, y_train, y_test):
     print(f"\n Training {model_name}...")
@@ -27,6 +31,7 @@ if __name__ == "__main__":
     print(" Loading and preprocessing data...")
     X, y = load_and_clean_data("data/creditcard.csv")
     X_train, X_test, y_train, y_test = split_data(X, y)
+    X_train, y_train = apply_smote(X_train, y_train)            # as classes are highly imbalanced.
 
     # Models to compare
     models = {
