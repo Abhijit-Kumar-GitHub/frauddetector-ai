@@ -1,3 +1,4 @@
+# tests/test_pathcheck.py
 import sys
 def test_pythonpath():
     print("\n\nPYTHONPATH:", sys.path)
